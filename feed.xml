@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>GAS Snippets</title>
+    <link href="https://fintess.github.io/gas-snippets/feed.xml" rel="self" />
+    <link href="https://fintess.github.io/gas-snippets" />
+    <updated>2021-02-27T14:40:20-03:00</updated>
+    <author>
+        <name>Thiago Braga</name>
+    </author>
+    <id>https://fintess.github.io/gas-snippets</id>
+
+    <entry>
+        <title>Obter nomes das abas da planilha</title>
+        <author>
+            <name>Thiago Braga</name>
+        </author>
+        <link href="https://fintess.github.io/gas-snippets/obter-nomes-das-abas-da-planilha-3/"/>
+        <id>https://fintess.github.io/gas-snippets/obter-nomes-das-abas-da-planilha-3/</id>
+
+        <updated>2021-02-27T14:40:20-03:00</updated>
+            <summary>
+                <![CDATA[
+                    var sheets = SpreadsheetApp.getActiveSpreadsheet().getSheets();sheets.map(item =&gt; Logger.log(item.getSheetName())); 
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <pre class="line-numbers  language-javascript"><code>var sheets = SpreadsheetApp.getActiveSpreadsheet().getSheets();
+sheets.map(item =&gt; Logger.log(item.getSheetName()));</code></pre>
+
+  <p>
+    
+  </p>
+            ]]>
+        </content>
+    </entry>
+</feed>

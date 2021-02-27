@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://fintess.github.io/gas-snippets/sitemap.xml

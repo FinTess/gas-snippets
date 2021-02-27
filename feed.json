@@ -1,0 +1,27 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "GAS Snippets",
+    "description": "",
+    "home_page_url": "https://fintess.github.io/gas-snippets",
+    "feed_url": "https://fintess.github.io/gas-snippets/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "Thiago Braga"
+    },
+    "items": [
+        {
+            "id": "https://fintess.github.io/gas-snippets/obter-nomes-das-abas-da-planilha-3/",
+            "url": "https://fintess.github.io/gas-snippets/obter-nomes-das-abas-da-planilha-3/",
+            "title": "Obter nomes das abas da planilha",
+            "summary": "var sheets = SpreadsheetApp.getActiveSpreadsheet().getSheets();sheets.map(item =&gt; Logger.log(item.getSheetName())); ",
+            "content_html": "<pre class=\"line-numbers  language-javascript\"><code>var sheets = SpreadsheetApp.getActiveSpreadsheet().getSheets();\nsheets.map(item =&gt; Logger.log(item.getSheetName()));</code></pre>\n\n  <p>\n    \n  </p>",
+            "author": {
+                "name": "Thiago Braga"
+            },
+            "tags": [
+            ],
+            "date_published": "2021-02-27T14:17:33-03:00",
+            "date_modified": "2021-02-27T14:40:20-03:00"
+        }
+    ]
+}
